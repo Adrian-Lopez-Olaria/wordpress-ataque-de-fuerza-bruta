@@ -29,7 +29,7 @@ Mediante la API REST de WordPress (`/wp-json/wp/v2/users`), se identificó un us
 - **ID**: 1
 - **Slug**: federico
 
-![API Response](consiguiendo-usuario.png)
+![API Response](media/consiguiendo-usuario.png)
 
 ### Análisis de Servicios
 El escaneo inicial con WPScan reveló varios servicios expuestos:
@@ -53,8 +53,8 @@ El ataque tuvo éxito en un tiempo remarkably corto:
 - **Tiempo de compromiso**: Aproximadamente 3 segundos
 - **Intentos realizados**: Solo 40 de 14,344,432 posibles contraseñas (0.0003%)
 
-![Ataque Parte 1](ataque-parte1.png)
-![Ataque Parte 2](ataque-parte2.png)
+![Ataque Parte 1](media/ataque-parte1.png)
+![Ataque Parte 2](media/ataque-parte2.png)
 
 ## Vulnerabilidades Identificadas
 
@@ -66,7 +66,7 @@ El ataque tuvo éxito en un tiempo remarkably corto:
 
 3. **XML-RPC Habilitado** (Media)
    - Servicio XML-RPC aceptando solicitudes POST
-   ![Vector de Ataque](vector-de-ataque-fuerza-fruta.png)
+   ![Vector de Ataque](media/vector-de-ataque-fuerza-fruta.png)
 
 4. **Listado de Directorios Habilitado** (Media)
    - Directorio `/wp-content/uploads/` con listado de archivos habilitado
