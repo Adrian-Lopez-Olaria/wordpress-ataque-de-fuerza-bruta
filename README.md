@@ -2,11 +2,11 @@
 
 ## Introducción
 
-En este repositorio se documenta un ejercicio de análisis de seguridad realizado contra una instalación de WordPress en un entorno controlado. La infraestructura objetivo fue implementada mediante el script [`instalar_wordpress.sh`](instalar_wordpress.sh), que automatiza la instalación de un stack LAMP (Linux, Apache, MySQL/MariaDB, PHP) junto con WordPress en Kali Linux.
+En este repositorio se documenta un ejercicio de análisis de seguridad realizado contra una instalación de WordPress en un entorno controlado que simula un escenario empresarial común. La infraestructura objetivo fue implementada mediante el script [`instalar_wordpress.sh`](instalar_wordpress.sh), replicando una situación típica donde una empresa contrata servicios de desarrollo web a bajo costo o donde el personal técnico carece de conocimientos adecuados en ciberseguridad.
 
-El objetivo principal es demostrar técnicas de penetración mediante ataques de fuerza bruta utilizando herramientas especializadas, específicamente WPScan, para identificar vulnerabilidades comunes en implementaciones de WordPress que pueden surgir de configuraciones por defecto o prácticas inseguras.
+Este escenario representa un caso frecuente en el mercado: empresas que priorizan el costo sobre la seguridad, contratando proveedores que realizan implementaciones básicas de WordPress sin seguir mejores prácticas de seguridad. El resultado es una instalación vulnerable que queda expuesta a amenazas críticas desde el momento de su puesta en producción.
 
-El entorno de pruebas simula un escenario real donde un administrador implementa WordPress utilizando scripts de automatización sin aplicar las medidas de seguridad adecuadas posteriormente, dejando expuestas vulnerabilidades críticas que pueden ser explotadas mediante ataques de fuerza bruta.
+El objetivo principal de este análisis es demostrar cómo técnicas de penetración mediante ataques de fuerza bruta utilizando herramientas especializadas como WPScan pueden comprometer fácilmente instalaciones mal configuradas. El ejercicio busca concienciar sobre la importancia de implementar medidas de seguridad básicas incluso en entornos con limitaciones presupuestarias.
 
 ## Índice
 
