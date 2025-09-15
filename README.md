@@ -2,13 +2,11 @@
 
 ## Introducción
 
-En este repositorio se documenta un ejercicio de análisis de seguridad realizado contra una instalación de WordPress en un entorno controlado. El objetivo principal es demostrar técnicas de penetración mediante ataques de fuerza bruta utilizando herramientas especializadas, específicamente WPScan, para identificar vulnerabilidades comunes en implementaciones de WordPress.
+En este repositorio se documenta un ejercicio de análisis de seguridad realizado contra una instalación de WordPress en un entorno controlado. La infraestructura objetivo fue implementada mediante el script [`instalar_wordpress.sh`](instalar_wordpress.sh), que automatiza la instalación de un stack LAMP (Linux, Apache, MySQL/MariaDB, PHP) junto con WordPress en Kali Linux.
 
-El entorno de pruebas consiste en:
-- Máquina objetivo: WordPress 6.8.2 instalado en localhost
-- Sistema atacante: Distribución Kali Linux
-- Herramienta principal: WPScan
-- Wordlist: rockyou.txt
+El objetivo principal es demostrar técnicas de penetración mediante ataques de fuerza bruta utilizando herramientas especializadas, específicamente WPScan, para identificar vulnerabilidades comunes en implementaciones de WordPress que pueden surgir de configuraciones por defecto o prácticas inseguras.
+
+El entorno de pruebas simula un escenario real donde un administrador implementa WordPress utilizando scripts de automatización sin aplicar las medidas de seguridad adecuadas posteriormente, dejando expuestas vulnerabilidades críticas que pueden ser explotadas mediante ataques de fuerza bruta.
 
 ## Índice
 
