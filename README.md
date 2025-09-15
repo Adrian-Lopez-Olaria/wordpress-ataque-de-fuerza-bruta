@@ -42,7 +42,7 @@ El escaneo inicial con WPScan reveló **varios servicios expuestos**:
 ### ⚙️ Configuración del Ataque
 Se ejecutó WPScan con los siguientes parámetros:
 ```bash
-wpscan --url http://localhost/ --usernames federico --passwords /home/anonimus/Excricorio/rockyou.txt --login-url /wp-login.php
+wpscan --url http://localhost/ --usernames federico --passwords rockyou.txt --login-url /wp-login.php
 ```
 
 ### 📊 Resultados del Ataque
